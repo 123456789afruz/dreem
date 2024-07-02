@@ -32,6 +32,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+@Media (max-width: 750px) {
+    flex-direction: column;
+}
 }
 .box {
 
@@ -56,6 +60,10 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    @Media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .card {
     text-align: center;
@@ -83,4 +91,10 @@ footer {
     padding: 60px 0;
     color: white;
     text-align: center;
+}
+.foto {
+
+    @Media (max-width: 530px) {
+        width: 100%;
+    }
 }
